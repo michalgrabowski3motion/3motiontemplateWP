@@ -76,12 +76,6 @@ $(".questionAbout h3").click(function(){
   $('.questionAbout p').hide();
 
 
-//
-//  particleground(document.getElementById('particles'), {
-//    dotColor: '#b81919',
-//    lineColor: '#b81919'
-//});
-
 
 $('.box-work .content-work .category-work button').each(function() {
   $(this).html($(this).html().replace('Wyróżnione slide', '').replace('Wyróżnione - strony www', '').replace('Wyróżnione na stronie głównej', ''));
