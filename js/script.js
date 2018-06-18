@@ -72,10 +72,7 @@ $(".questionAbout h3").click(function(){
   $(this).next().slideToggle();
   $(this).toggleClass('rotate');
 });
-
-  $('.questionAbout p').hide();
-
-
+$('.questionAbout p').hide();
 
 $('.box-work .content-work .category-work button').each(function() {
   $(this).html($(this).html().replace('Wyróżnione slide', '').replace('Wyróżnione - strony www', '').replace('Wyróżnione na stronie głównej', ''));
